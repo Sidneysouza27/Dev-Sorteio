@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="/assets/sort 1.png" type="image/png">
+    <title>Sorteio Legal</title>
+</head>
+
+<body>
+    <img class="dado" src="./assets/sort 1.png" />
+
+    <h2>Sortear um Número</h2>
+
+    <div>
+
+        <input id="minValue" placeholder="Entre" class="input-min" type="number" />
+
+        <span class="igual">➡︎</span>
+
+        <input id="maxValue" placeholder="E" class="input-max" type="number" />
+
+        <span class="igual">=</span>
+
+        <input id="result" placeholder="Resultado" class="input-result" type="text" readonly />
+
+    </div>
+
+    <button onclick="generateNumber()">Sortear</button>
+
+</body>
+<script src="/scripts.js"></script>
+
+</html>
