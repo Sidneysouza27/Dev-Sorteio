@@ -7,6 +7,7 @@ function generateNumber() {
  if (isNaN(min) || isNaN(max)) {
     alert("Por favor, insira valores válidos para o intervalo.");
     return;
+
 }
 
 if (min >= max){
